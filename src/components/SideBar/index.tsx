@@ -6,7 +6,6 @@ import { Container, SearchWrapper, SearchInput, SearchIcon, Body } from './style
 import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
 import News from '../News';
-import { NewReleases } from 'styled-icons/material-outlined';
 
 const SideBar: React.FC = () => {
   return (
@@ -36,21 +35,14 @@ const SideBar: React.FC = () => {
                 ]}
               />
               <List 
-                title="Talvez você curta"
+                title="O que está acontecendo"
                 elements={[
                     <News/>,
                     <News/>,
                     <News/>
                 ]}
               />
-              <List 
-                title="Talvez você curta"
-                elements={[
-                    <News/>,
-                    <News/>,
-                    <News/>
-                ]}
-              />
+
           </Body>
         </StickyBox>
       </Container>
