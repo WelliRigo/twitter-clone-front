@@ -24,7 +24,7 @@ const Main: React.FC = () => {
               <Avatar/>
               <Content>
 
-                  <TextInput contentEditable></TextInput>
+                <TextInput contentEditable></TextInput>
                 
                 <Attachments>
                     <Icons>
