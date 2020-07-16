@@ -14,3 +14,6 @@ export {Calendar} from 'styled-icons/boxicons-regular/'
 export {Person, Cake, Favorite} from 'styled-icons/material';
 export {ArrowLeft} from 'styled-icons/heroicons-solid';
 export {Chat} from 'styled-icons/heroicons-outline';
+
+export {ImageOutline} from 'styled-icons/evaicons-outline';
+export { FileGif} from 'styled-icons/remix-line';
