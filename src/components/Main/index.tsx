@@ -39,7 +39,6 @@ const Main: React.FC = () => {
               </Content>
           </Body>
 
-            {/* <ProfilePage/> */}
             <Feed/>
 
             <BottomMenu/>

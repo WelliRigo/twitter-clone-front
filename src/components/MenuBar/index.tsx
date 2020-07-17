@@ -25,7 +25,7 @@ const MenuBar: React.FC = () => {
 
         <Logo/>
 
-        <MenuButton>
+        <MenuButton className="active">
           <HomeIcon/>
           <span>Página Inicial</span>
         </MenuButton>
@@ -45,7 +45,7 @@ const MenuBar: React.FC = () => {
           <span>Favoritados</span>
         </MenuButton>
 
-        <MenuButton className="active">
+        <MenuButton>
           <ProfileIcon/>
           <span>Perfil</span>
         </MenuButton>
